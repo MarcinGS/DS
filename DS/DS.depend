@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1609430151 source:c:\users\wsti\desktop\dorwij studenta\ds\console.cpp
+	"Console.h"
+
+1609431100 c:\users\wsti\desktop\dorwij studenta\ds\console.h
+	<cstring>
+	<cstdio>
+	<ctime>
+	<conio.h>
+	<windows.h>
+
+1610207820 source:c:\users\wsti\desktop\dorwij studenta\ds\game.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	"Game.h"
+	"Console.h"
+	"ReadSaveScores.h"
+
+1610053268 c:\users\wsti\desktop\dorwij studenta\ds\game.h
+	"Runner.h"
+	"PlayBoard.h"
+	"PlayerLife.h"
+	"ReadSaveScores.h"
+	"FirstBoard.h"
+
+1609430778 c:\users\wsti\desktop\dorwij studenta\ds\runner.h
+	"Point.h"
+	"Console.h"
+
+1609417164 c:\users\wsti\desktop\dorwij studenta\ds\point.h
+
+1610053586 c:\users\wsti\desktop\dorwij studenta\ds\playboard.h
+	"Point.h"
+	"Console.h"
+
+1609869078 c:\users\wsti\desktop\dorwij studenta\ds\playerlife.h
+
+1609514850 source:c:\users\wsti\desktop\dorwij studenta\ds\main.cpp
+	"Game.h"
+
+1610053400 source:c:\users\wsti\desktop\dorwij studenta\ds\playboard.cpp
+	"PlayBoard.h"
+	"Console.h"
+	<cstring>
+
+1609869078 source:c:\users\wsti\desktop\dorwij studenta\ds\playerlife.cpp
+	"PlayerLife.h"
+
+1609417164 source:c:\users\wsti\desktop\dorwij studenta\ds\point.cpp
+	"Point.h"
+
+1609926643 source:c:\users\wsti\desktop\dorwij studenta\ds\runner.cpp
+	<windows.h>
+	"Runner.h"
+	"Console.h"
+	"PlayBoard.h"
+
+1609936987 source:c:\users\wsti\desktop\dorwij studenta\ds\savescoretofile.cpp
+	"SaveScoreToFile.h"
+
+1609937319 c:\users\wsti\desktop\dorwij studenta\ds\savescoretofile.h
+	<fstream>
+
+1610207810 source:c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.cpp
+	"ReadSaveScores.h"
+	<iostream>
+	<fstream>
+
+1610207810 c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.h
+	<string>
+	<fstream>
+
+1610182235 c:\users\wsti\desktop\dorwij studenta\ds\firstboard.h
+	"PlayBoard.h"
+
+1610201355 source:c:\users\wsti\desktop\dorwij studenta\ds\firstboard.cpp
+	"FirstBoard.h"
+	<iostream>
+

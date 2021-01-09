@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="DS" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../DS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="FirstBoard.cpp" />
+		<Unit filename="FirstBoard.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="PlayBoard.cpp" />
+		<Unit filename="PlayBoard.h" />
+		<Unit filename="PlayerLife.cpp" />
+		<Unit filename="PlayerLife.h" />
+		<Unit filename="PlayerRecordList.cpp" />
+		<Unit filename="PlayerRecordList.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="ReadSaveScores.cpp" />
+		<Unit filename="ReadSaveScores.h" />
+		<Unit filename="Runner.cpp" />
+		<Unit filename="Runner.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

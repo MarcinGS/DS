@@ -1,0 +1,6 @@
+Marcin $ 18 pkt.$
+bbb $ 18 pkt.$
+ccc $ 14 pkt.$
+eee $ 16 pkt.$
+ddd $ 11 pkt.$
+fff $ 09 pkt.$
