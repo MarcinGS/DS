@@ -9,7 +9,7 @@
 	<conio.h>
 	<windows.h>
 
-1610207820 source:c:\users\wsti\desktop\dorwij studenta\ds\game.cpp
+1610400080 source:c:\users\wsti\desktop\dorwij studenta\ds\game.cpp
 	<iostream>
 	<stdio.h>
 	<string>
@@ -62,12 +62,12 @@
 1609937319 c:\users\wsti\desktop\dorwij studenta\ds\savescoretofile.h
 	<fstream>
 
-1610207810 source:c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.cpp
+1610400080 source:c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.cpp
 	"ReadSaveScores.h"
 	<iostream>
 	<fstream>
 
-1610207810 c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.h
+1610400080 c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.h
 	<string>
 	<fstream>
 
