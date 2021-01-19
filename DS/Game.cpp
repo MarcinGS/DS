@@ -6,6 +6,7 @@
 #include "ReadSaveScores.h"
 
 
+
 Game::Game() : runner(40, 12, '*'), playBoard(), cash(0), playerLife(), readSaveScores("scores.txt")
 {
     Console::clearScreen();
@@ -109,7 +110,7 @@ void Game::run()
     select = firstBoard.selectFromMenu();
     system("cls");
     if(select == '1'){
-        readSaveScores.readFromFile(5);
+        readSaveScores.readFromFile(MAX_RECORDS_TO_SHOW);
         cout << "\n";
         system("pause");
     }
@@ -158,8 +159,5 @@ void Game::run()
     std::cout << "Podaj swoje imie: " << std::endl;
     std::cin >> name;
 
-    string pkt = to_string(cash);
-    name += " $ " + pkt + " pkt." +"$";
-
-    readSaveScores.saveToFile(name);
+    readSaveScores.saveToFile(name,cash);
  }

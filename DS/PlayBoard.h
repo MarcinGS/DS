@@ -24,7 +24,7 @@ public:
 protected:
     char playBoardMap[NUM_OF_ROWS][NUM_OF_COLS+1];
 private:
-    int maxPoints;
+    int maxPoints = 0;
 };
 
 

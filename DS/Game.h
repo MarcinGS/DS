@@ -26,6 +26,7 @@ public:
     void run();
 
 private:
+    const int MAX_RECORDS_TO_SHOW = 5;
     Runner runner;
     PlayBoard playBoard;
     PlayerLife playerLife;

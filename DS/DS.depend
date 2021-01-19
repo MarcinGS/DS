@@ -9,7 +9,7 @@
 	<conio.h>
 	<windows.h>
 
-1610400080 source:c:\users\wsti\desktop\dorwij studenta\ds\game.cpp
+1611089533 source:c:\users\wsti\desktop\dorwij studenta\ds\game.cpp
 	<iostream>
 	<stdio.h>
 	<string>
@@ -17,7 +17,7 @@
 	"Console.h"
 	"ReadSaveScores.h"
 
-1610053268 c:\users\wsti\desktop\dorwij studenta\ds\game.h
+1611083884 c:\users\wsti\desktop\dorwij studenta\ds\game.h
 	"Runner.h"
 	"PlayBoard.h"
 	"PlayerLife.h"
@@ -30,7 +30,7 @@
 
 1609417164 c:\users\wsti\desktop\dorwij studenta\ds\point.h
 
-1610053586 c:\users\wsti\desktop\dorwij studenta\ds\playboard.h
+1611084409 c:\users\wsti\desktop\dorwij studenta\ds\playboard.h
 	"Point.h"
 	"Console.h"
 
@@ -39,7 +39,7 @@
 1609514850 source:c:\users\wsti\desktop\dorwij studenta\ds\main.cpp
 	"Game.h"
 
-1610053400 source:c:\users\wsti\desktop\dorwij studenta\ds\playboard.cpp
+1611084409 source:c:\users\wsti\desktop\dorwij studenta\ds\playboard.cpp
 	"PlayBoard.h"
 	"Console.h"
 	<cstring>
@@ -62,14 +62,15 @@
 1609937319 c:\users\wsti\desktop\dorwij studenta\ds\savescoretofile.h
 	<fstream>
 
-1610400080 source:c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.cpp
+1611091479 source:c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.cpp
 	"ReadSaveScores.h"
 	<iostream>
 	<fstream>
 
-1610400080 c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.h
+1611091300 c:\users\wsti\desktop\dorwij studenta\ds\readsavescores.h
 	<string>
 	<fstream>
+	<PlayerRecordList.h>
 
 1610182235 c:\users\wsti\desktop\dorwij studenta\ds\firstboard.h
 	"PlayBoard.h"
@@ -77,4 +78,10 @@
 1610201355 source:c:\users\wsti\desktop\dorwij studenta\ds\firstboard.cpp
 	"FirstBoard.h"
 	<iostream>
+
+1611086572 source:c:\users\wsti\desktop\dorwij studenta\ds\playerrecordlist.cpp
+	"PlayerRecordList.h"
+
+1611089938 c:\users\wsti\desktop\dorwij studenta\ds\playerrecordlist.h
+	<string>
 

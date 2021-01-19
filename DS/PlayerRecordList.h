@@ -6,9 +6,15 @@ using namespace std;
 class PlayerRecordList
 {
     public:
-        PlayerRecordList(string name, int score);
+        PlayerRecordList(string name = "", int score = 0);
+
+        void setName(string name);
+        void setScore(int score);
+        string getName();
+        int getScore();
 
     private:
+
         string name;
         int score;
 };
