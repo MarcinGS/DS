@@ -22,6 +22,7 @@ class ReadSaveScores
         fstream file;
         int recordsCout();
         void bubleSort(PlayerRecordList tab[], int n);
+        void printPlayers(PlayerRecordList playersTab[], int numOfTopPlayers, int tabSize);
 
 };
 

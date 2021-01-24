@@ -2,14 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="default" />
-	<File name="Runner.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="FirstBoard.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="566" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Console.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="78" />
+			<Cursor1 position="214" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="PlayBoard.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -17,9 +12,14 @@
 			<Cursor1 position="687" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Game.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ReadSaveScores.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4314" topLine="126" />
+			<Cursor1 position="585" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Runner.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="566" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Runner.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -27,44 +27,48 @@
 			<Cursor1 position="943" topLine="4" />
 		</Cursor>
 	</File>
-	<File name="ReadSaveScores.cpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ReadSaveScores.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1207" topLine="18" />
+			<Cursor1 position="499" topLine="0" />
 		</Cursor>
-	</File>
-	<File name="ReadSaveScores.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="530" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="FirstBoard.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="214" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Game.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1154" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="PlayerRecordList.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="340" topLine="0" />
-		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+			<Collapse line="11" />
+		</Folding>
 	</File>
 	<File name="PlayerRecordList.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="197" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="PlayBoard.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="PlayerRecordList.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3042" topLine="36" />
+			<Cursor1 position="338" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="FirstBoard.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Console.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2726" topLine="14" />
+			<Cursor1 position="0" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="Game.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="863" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="Game.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1154" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayBoard.cpp" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1996" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="FirstBoard.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1180" topLine="8" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

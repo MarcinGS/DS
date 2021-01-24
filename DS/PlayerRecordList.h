@@ -14,7 +14,6 @@ class PlayerRecordList
         int getScore();
 
     private:
-
         string name;
         int score;
 };

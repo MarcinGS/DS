@@ -5,24 +5,24 @@ FirstBoard::FirstBoard()
 {
       static char initialMap[NUM_OF_ROWS][NUM_OF_COLS+1] =
   {
-      // Liczby poni¿ej u³atwiaj¹ orientacje w tablicy, uwaga wymiary musz¹ siê zgadzaæ
+      // Liczby poniÂ¿ej uÂ³atwiajÂ¹ orientacje w tablicy, uwaga wymiary muszÂ¹ siÃª zgadzaÃ¦
       //01234567890123456789012345678901234567890123456789012345678901234567890123456789
       "################################################################################",
       "#                                                                              #",
+      "#        1. Wyswietl liste rekordow                                            #",
       "#                                                                              #",
+      "#        2. Graj                                                               #",
       "#                                                                              #",
-      "#       1. Wyswietl liste rekordow                                             #",
+      "#------------------------------------------------------------------------------#",
       "#                                                                              #",
-      "#       2. Graj                                                                #",
+      "#       Instrukcja:                                                            #",
+      "#       $ -- 1pkt.                                                             #",
+      "#       G -- 5pkt.                                                             #",
+      "#       + -- Pulapka tracisz zycie!!!                                          #",
       "#                                                                              #",
+      "#       * -- Gracz!                                                            #",
       "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
-      "#                                                                              #",
+      "#       Poruszanie strzalkami kierunkowymi                                     #",
       "#                                                                              #",
       "#                                                                              #",
       "#                                                                              #",

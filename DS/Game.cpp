@@ -22,18 +22,15 @@ Game::~Game()
 void Game::updateGameStatus()
 {
     char info[128];
-    // Przygotowanie ³añcucha znaków z informacjami i wyœwietlenie
+    // Przygotowanie Â³aÃ±cucha znakÃ³w z informacjami i wyÅ“wietlenie
     sprintf(info, "X=%-2d Y=%-2d", runner.getX(), runner.getY());
     Console::writeStrXY(1, 25, info);
-    // Przygotowanie ³añcucha znaków z informacjami i wyœwietlenie
+    // Przygotowanie Â³aÃ±cucha znakÃ³w z informacjami i wyÅ“wietlenie
     sprintf(info, "Gotowka=%-4d", cash);
     Console::writeStrXY(20, 25, info);
 
     sprintf(info, "Life=%d", playerLife.getLifeNum());
     Console::writeStrXY(35, 25, info);
-
-    sprintf(info, "maxPoints=%3d", playBoard.getPoints());
-    Console::writeStrXY(45, 25, info);
 }
 
 void Game::displayClock()
@@ -43,7 +40,7 @@ void Game::displayClock()
     time_t t = time(NULL); // Pobranie aktualnego czasu
     struct tm *ptm = localtime(&t); // "Rozpakowanie" informacji o czasie
 
-    // Przygotowanie ³añcucha znaków z informacjami o czasie i wyœwietlenie
+    // Przygotowanie Â³aÃ±cucha znakÃ³w z informacjami o czasie i wyÅ“wietlenie
     sprintf( info, "%02d:%02d:%02d", ptm->tm_hour, ptm->tm_min, ptm->tm_sec);
     Console::writeStrXY(72, 25, info);
 }
@@ -56,13 +53,13 @@ void Game::backgroundProcess()
 
 void Game::processKey(int key)
 {
-    // Zapamietujemy aktualn¹ pozycjê runner'a
+    // Zapamietujemy aktualnÂ¹ pozycjÃª runner'a
     Point newPos = runner;
     switch(key)
     {
         case KEY_UP:    // Przewidywana nowa pozycja
             newPos.setY(runner.getY()-1);
-            // Czy mo¿na siê przemieœciæ na tê pozycjê?
+            // Czy moÂ¿na siÃª przemieÅ“ciÃ¦ na tÃª pozycjÃª?
             if(!playBoard.isWallOnXY(newPos))
                 runner.moveUp();
             break;
@@ -79,7 +76,7 @@ void Game::processKey(int key)
                 runner.moveRight();
             break;
     }
-    // Zebranie gotówki z nowej pozycji, o ile na niej jest
+    // Zebranie gotÃ³wki z nowej pozycji, o ile na niej jest
     if(playBoard.isCashOnXY(runner))
     {
         cash += 1;
@@ -119,7 +116,7 @@ void Game::run()
     runner.show();
 
     // Aktywne przepytywanie klawiatury. Rezultatem funkcji _kbhit()
-    // jest true je¿eli w buforze klawiatury oczekuje nieodczytany znak
+    // jest true jeÂ¿eli w buforze klawiatury oczekuje nieodczytany znak
     do
     {
         if(!_kbhit())
